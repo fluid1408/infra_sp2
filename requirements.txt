@@ -6,6 +6,8 @@ Django==3.2
 django-filter==22.1
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.2.2
+gunicorn==20.0.4
+psycorg2-binary==2.9.5
 iniconfig==2.0.0
 packaging==23.0
 pluggy==1.0.0
