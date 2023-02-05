@@ -147,7 +147,6 @@ class ReviewComment(models.Model):
         db_index=True
     )
 
-
     class Meta:
         abstract = True
         ordering = ('-pub_date',)
