@@ -147,8 +147,6 @@ class ReviewComment(models.Model):
         db_index=True
     )
 
-    def __str__(self):
-        return self.text
 
     class Meta:
         abstract = True
